@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>CSS2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        h1{
+            text-shadow: 5px 5px 4px rgb(81, 84, 77);
+        }
+        p.cappitalize{
+            text-transform: capitalize;
+            text-align: center;
+        }
+        p.uppercase{
+            text-transform: uppercase;
+        }
+        p.lowercase{
+            text-transform: lowercase;
+        }
+        p.pageOne::first-letter{
+            font-size: 40px;
+            text-transform: uppercase;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Dòng này được định dạng có bóng (shadow)</h1>
+    <p class="none">Văn bản bình thường</p>
+    <p class="capitalize">Hoa các ký tự đầu từ</p>
+    <p class="uppercase">Hoa tất cả các ký tự</p>
+    <p class="lowercase">ĐOẠN NÀY SẼ ĐƯỢC CHUYỂN VỀ CHỮ THƯỜNG</p>
+    <p class="pageOne">Đoạn văn bản này có ký tự đầu được định dạng font-size lớn, dòng đầu tiên in đậm</p>
+
+</body>
+</html>
